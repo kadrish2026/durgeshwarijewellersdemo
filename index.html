@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Durgeshwari Jewellers | Kanjurmarg East, Mumbai</title>
+  <meta name="description" content="Traditional Indian gold jewellery showroom in Kanjurmarg East, Mumbai.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar">
+    <a href="#home" class="logo">Durgeshwari <span>Jewellers</span></a>
+    <button class="menu-button" id="menuButton" aria-label="Open menu">&#9776;</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#collections">Collections</a>
+      <a href="#products">Designs</a>
+      <a href="#about">About</a>
+      <a href="#why-us">Why Us</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <!-- To change the hero photo, replace the src below. -->
+  <section class="hero" id="home">
+    <img class="hero-image" src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1800&q=75" alt="Traditional gold necklace">
+    <div class="hero-overlay"></div>
+    <div class="hero-text">
+      <p class="small-title">Kanjurmarg East, Mumbai</p>
+      <h1>Tradition That Shines Forever</h1>
+      <p>Discover timeless traditional jewellery that celebrates your heritage, elegance and special moments.</p>
+      <a href="#collections" class="button gold-button">Explore Collections</a>
+      <a href="#" class="button outline-button whatsapp-link" data-product="your jewellery collection">Enquire on WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- ========== COLLECTIONS ========== -->
+  <!-- Cards are created by script.js from the "collections" list. -->
+  <section class="section" id="collections">
+    <p class="small-title">Browse</p>
+    <h2>Our Collections</h2>
+    <div class="collection-grid" id="collectionGrid"></div>
+  </section>
+
+  <!-- ========== PRODUCTS ========== -->
+  <!-- Cards are created by script.js from the "products" list. -->
+  <section class="section cream" id="products">
+    <p class="small-title">Featured Designs</p>
+    <h2>Jewellery Gallery</h2>
+    <div class="filter-bar" id="filterBar"></div>
+    <div class="product-grid" id="productGrid"></div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section split" id="about">
+    <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=900&q=75" alt="Gold jewellery in a showroom">
+    <div>
+      <p class="small-title">Our Story</p>
+      <h2>About Durgeshwari Jewellers</h2>
+      <p>Durgeshwari Jewellers is a jewellery showroom in Kanjurmarg East, Mumbai, offering traditional Indian gold jewellery for weddings, festivals and everyday celebrations.</p>
+      <p>Our designs are inspired by Indian heritage, from the poth and traditional necklaces to bangles, jhumkas and men's rings. Visit the showroom to see the collection in person.</p>
+    </div>
+  </section>
+
+  <!-- ========== WHY CHOOSE US ========== -->
+  <section class="section cream" id="why-us">
+    <p class="small-title">Why Choose Us</p>
+    <h2>The Durgeshwari Experience</h2>
+    <div class="why-grid">
+      <div class="why-card"><h3>Traditional Designs</h3><p>Jewellery inspired by classic Indian craftsmanship.</p></div>
+      <div class="why-card"><h3>Wide Range</h3><p>Necklaces, bangles, earrings, chains, pendants and men's rings.</p></div>
+      <div class="why-card"><h3>Personal Attention</h3><p>Talk to us about your occasion and we will guide you.</p></div>
+      <div class="why-card"><h3>Easy Enquiry</h3><p>Message us on WhatsApp about any design you like.</p></div>
+    </div>
+  </section>
+
+  <!-- ========== PROMOTIONAL BANNER ========== -->
+  <section class="banner">
+    <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=1800&q=75" alt="Gold jewellery banner">
+    <div class="banner-text">
+      <h2>Make Every Occasion Golden</h2>
+      <a href="#" class="button gold-button whatsapp-link" data-product="wedding and festive jewellery">Enquire on WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- ========== INSTAGRAM-STYLE GALLERY ========== -->
+  <section class="section" id="gallery">
+    <p class="small-title">Instagram</p>
+    <h2>From Our Showroom</h2>
+    <div class="insta-grid" id="instaGrid"></div>
+    <p class="center"><a class="button dark-button instagram-link" href="#" target="_blank" rel="noopener">Follow on Instagram</a></p>
+  </section>
+
+  <!-- ========== SHOWROOM VISIT ========== -->
+  <section class="section split reverse cream" id="visit">
+    <img src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=900&q=75" alt="Elegant jewellery display">
+    <div>
+      <p class="small-title">Visit Us</p>
+      <h2>Visit Our Showroom</h2>
+      <p>Durgeshwari Jewellers, Kanjurmarg East, Mumbai.</p>
+      <p>Please message us on WhatsApp before visiting to confirm timings.</p>
+      <a class="button gold-button" id="mapLink" href="#" target="_blank" rel="noopener">Open in Google Maps</a>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section" id="contact">
+    <p class="small-title">Contact</p>
+    <h2>Get In Touch</h2>
+    <div class="contact-box">
+      <p>Phone / WhatsApp: <a id="phoneLink" href="#"></a></p>
+      <p>Instagram: <a class="instagram-link" href="#" target="_blank" rel="noopener">@dj_jewellery_showroom</a></p>
+      <p>Location: Kanjurmarg East, Mumbai</p>
+      <a href="#" class="button gold-button whatsapp-link" data-product="a jewellery design">Chat on WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <p class="logo">Durgeshwari <span>Jewellers</span></p>
+    <p>Kanjurmarg East, Mumbai</p>
+    <p class="footer-note">Demo website by KADRISH. Product names are samples.</p>
+  </footer>
+
+  <!-- ========== FLOATING WHATSAPP BUTTON ========== -->
+  <a href="#" class="floating-whatsapp whatsapp-link" data-product="your jewellery" aria-label="Chat on WhatsApp">WhatsApp</a>
+
+  <!-- ========== PRODUCT DETAILS MODAL ========== -->
+  <div class="modal" id="productModal">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <img id="modalImage" src="" alt="">
+      <div class="modal-info">
+        <h3 id="modalName"></h3>
+        <p class="price">Price on Request</p>
+        <p id="modalText"></p>
+        <a href="#" class="button gold-button" id="modalWhatsapp">Enquire on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
